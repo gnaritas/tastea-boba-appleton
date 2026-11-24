@@ -358,8 +358,8 @@ header .pill.call{box-shadow:none;padding:9px 16px;font-size:.78rem}
 .hero .kicker{color:var(--lychee)}
 .herogrid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(240px,.65fr);gap:44px;align-items:center;padding:64px 22px 70px}
 h1{color:inherit}.amp{color:var(--thai)}
-.lede{font-size:1.13rem;max-width:36em;color:#efe4d3}
-.herotxt .lede{color:#efe4d3}
+.lede{font-size:1.13rem;max-width:36em;color:var(--soft)}
+.herotxt .lede,.hero .lede{color:#efe4d3}
 .kicker{margin:0 0 .8em;font-size:.78rem;color:var(--passion-deep)}
 .kicker::before{content:"●  ";color:var(--thai);letter-spacing:0}
 .openline{font-family:inherit;font-size:.95rem;color:var(--lychee);letter-spacing:.03em;text-transform:uppercase;margin:1.4em 0 0}
