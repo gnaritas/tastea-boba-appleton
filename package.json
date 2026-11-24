@@ -1,0 +1,9 @@
+{
+  "name": "tastea-boba-appleton-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tastea Boba — tea & dessert shop, Appleton WI. Template v2 T1 (2026-11-24, t_abc78b8a).",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}

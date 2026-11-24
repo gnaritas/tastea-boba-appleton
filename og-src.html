@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>og</title>
+<style>
+*{box-sizing:border-box;margin:0}
+html,body{width:1200px;height:630px;overflow:hidden}
+body{background:#2b1a13;color:#faf5ec;font-family:Futura,"Century Gothic","Avenir Next","Trebuchet MS",sans-serif;position:relative;border-bottom:10px solid #c8395f}
+.stripe{position:absolute;left:0;top:0;width:100%;height:12px;background:#e0892f}
+.grid{display:grid;grid-template-columns:1.5fr .9fr;height:100%;padding:70px 80px 64px;gap:40px;align-items:center}
+.kicker{color:#eb9c8f;letter-spacing:.32em;font-size:20px;text-transform:uppercase;margin-bottom:26px}
+.kicker b{color:#e0892f;font-weight:600}
+h1{font-size:104px;line-height:.98;letter-spacing:.01em;text-transform:uppercase;font-weight:600}
+h1 .amp{color:#e0892f}
+.tag{font-family:Georgia,"Times New Roman",serif;text-transform:none;letter-spacing:0;font-size:30px;color:#efe4d3;margin:34px 0 0;font-style:italic}
+.addr{position:absolute;left:80px;bottom:58px;font-size:21px;letter-spacing:.08em;color:#eb9c8f;text-transform:uppercase}
+.dotline{position:absolute;left:80px;bottom:92px;width:340px;height:10px;background:radial-gradient(circle 4px at 50% 50%,#faf5ec 99%,transparent) repeat-x;background-size:20px 10px;opacity:.55}
+/* cup art */
+.cup{position:relative;height:430px;margin-top:20px}
+.lid{position:absolute;left:50%;top:44px;transform:translateX(-50%);width:250px;height:26px;background:#eb9c8f;border:5px solid #17110d;border-radius:14px}
+.straw{position:absolute;left:calc(50% + 34px);top:-14px;width:18px;height:150px;background:#c8395f;border:5px solid #17110d;border-radius:8px;transform:rotate(12deg)}
+.body{position:absolute;left:50%;top:64px;transform:translateX(-50%);width:210px;height:330px;border:5px solid #17110d;border-radius:16px 16px 34px 34px;overflow:hidden;background:linear-gradient(#f3e7d3,#e2c9a8)}
+.milk{position:absolute;left:0;right:0;top:30%;height:26%;background:#fbf3e6;opacity:.85}
+.pearl{position:absolute;border-radius:50%;background:#17110d;box-shadow:inset -4px -5px 8px rgba(255,255,255,.14)}
+.p1{width:34px;height:34px;left:22px;bottom:18px}.p2{width:28px;height:28px;left:76px;bottom:30px}.p3{width:36px;height:36px;left:126px;bottom:12px}.p4{width:24px;height:24px;left:48px;bottom:72px}.p5{width:30px;height:30px;left:104px;bottom:84px}.p6{width:26px;height:26px;left:150px;bottom:64px}
+.rating{margin-top:44px;font-size:22px;letter-spacing:.14em;text-transform:uppercase;color:#efe4d3}
+.rating b{color:#fff;font-size:30px}
+</style></head>
+<body><div class="stripe"></div>
+<div class="grid">
+  <div>
+    <p class="kicker"><b>●</b>&nbsp; APPLETON, WISCONSIN · EST. 2026</p>
+    <h1>BOBA <span class="amp">●</span><br>CREPES <span class="amp">●</span><br>SWEET TREATS</h1>
+    <p class="tag">Sip • Smile • Repeat — made fresh with love.</p>
+    <p class="rating">Rated <b>4.6</b> on Google</p>
+  </div>
+  <div class="cup"><i class="straw"></i><div class="lid"></div><div class="body"><b class="milk"></b><b class="pearl p1"></b><b class="pearl p2"></b><b class="pearl p3"></b><b class="pearl p4"></b><b class="pearl p5"></b><b class="pearl p6"></b></div></div>
+</div>
+<p class="dotline"></p>
+<p class="addr">Tastea Boba · 317 E Calumet St</p>
+</body></html>
